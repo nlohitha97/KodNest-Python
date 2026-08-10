@@ -13,4 +13,4 @@ alias_scores.append(additional_scores)
 
 print(f"Original: {original_score}")
 print(f"Alias: {alias_scores}")
-print(f"Shared: {original_score == alias_scores}")
+print(f"Shared: {original_score is alias_scores}")

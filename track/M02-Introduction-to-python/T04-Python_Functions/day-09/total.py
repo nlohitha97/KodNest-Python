@@ -1,9 +1,8 @@
 def display_invoice_total(price,quantity):
     total = price * quantity
-    return total
+    print("Total:",total)
     pass
 
 price = int(input())
 quantity = int(input())
-result = display_invoice_total(price,quantity)
-print("Total:",result)
+display_invoice_total(price,quantity)

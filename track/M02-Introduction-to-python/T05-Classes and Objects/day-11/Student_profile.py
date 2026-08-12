@@ -18,6 +18,7 @@ class StudentProfile:
                 f"placement status:{placement_status}")
 
 s = StudentProfile(101,"lohi","AIML",80.0,["PYTHON"],True)
+s1= StudentProfile(102,"jin","Java")
 print(s)
-
+print(s1)
             

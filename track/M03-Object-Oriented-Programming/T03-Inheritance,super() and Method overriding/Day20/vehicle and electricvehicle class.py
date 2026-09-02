@@ -9,7 +9,7 @@ class Vehicle:
 class ElectricCar(Vehicle):
     # Create show_battery() here
     def show_battery(self, battery_capacity):
-        return f"Battery Capacity: {battery_capacity} kWh"  #this is used to print the battery capacity
+        return f"Battery: {battery_capacity} kWh"  #this is used to print the battery capacity
 
 
 brand = input()

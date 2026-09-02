@@ -11,7 +11,7 @@ class StudentProfile(Profile):
         
         #Override summary() here
     def summary(self):
-        return f"{super().summary()} \nCourse: {self.course}"
+        return f"{super().summary()} \ngit Course: {self.course}"
 name=input().strip()
 course = input().strip()
 #Create object and display summary
